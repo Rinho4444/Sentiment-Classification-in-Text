@@ -1,11 +1,11 @@
 # Sentiment-Classification-in-Text
 
 ## Result
-| Model | RMSE | 
-|---------|------|
-| K-Nearest Neighbors | 188239 | 
-| Linear Regression | 64453485530 | 
-| Decision Tree | 195260 | 
-| Random Forest | 178764 | 
-| XGBoost | 188172 | 
-| **LightGBM** | **169731** | 
+| Model | Size | Macro-F1 |
+|---------|------| ------ |
+| K-Nearest Neighbors | 188239 |  188239 | 
+| Linear Regression | 64453485530 |  64453485530 |
+| Decision Tree | 195260 | 195260 | 
+| Ensemble XGBoost and LightGBM by Stacking | 	0.8508 | 0.8508 | 
+| Ensemble XGBoost and LightGBM by Voting | 0.8559 | 0.8559 |
+| **LightGBM** | **169731** |  **169731** |
