@@ -8,4 +8,4 @@
 | Decision Tree | 195260 | 195260 | 
 | Ensemble XGBoost and LightGBM by Stacking | 	0.8508 | 0.8508 | 
 | Ensemble XGBoost and LightGBM by Voting | 0.8559 | 0.8559 |
-| **LightGBM** | **169731** |  **169731** |
+| **BAG + XGB + CV 10** | **1.65MB** |  **0.8426** |
